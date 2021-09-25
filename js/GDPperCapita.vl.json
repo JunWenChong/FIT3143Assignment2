@@ -4,7 +4,7 @@
   "width": 800,
   "height": 600,
   "data": {
-    "url": "https://raw.githubusercontent.com/JunWenChong/FIT3143Assignment2/main/worldmap.topojson",
+    "url": "https://raw.githubusercontent.com/JunWenChong/FIT3143Assignment2/main/js/worldmap.topojson",
     "format": {"type": "topojson", "feature": "worldmap"}
   },
   "transform": [
@@ -12,7 +12,7 @@
       "lookup": "properties.name",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/JunWenChong/FIT3143Assignment2/main/gdp-per-capita-worldbank.csv"
+          "url": "https://raw.githubusercontent.com/JunWenChong/FIT3143Assignment2/main/data/gdp-per-capita-worldbank.csv"
         },
         "key": "Entity",
         "fields": ["GDPperCapita"]
