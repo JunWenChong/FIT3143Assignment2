@@ -1,0 +1,174 @@
+"","Country","Life.expectancy","ISO.code","Population..2020."
+"1","Afghanistan",64.5,"AFG",38742911
+"2","Algeria",76.7,"DZA",43685618
+"3","Andorra",81.8,"AND",77240
+"4","Angola",60.8,"AGO",32644783
+"5","Antigua and Barbuda",76.9,"ATG",97764
+"6","Argentina",76.5,"ARG",45111229
+"7","Armenia",74.9,"ARM",2962137
+"8","Australia",83.3,"AUS",25439164
+"9","Austria",81.4,"AUT",8996022
+"10","Azerbaijan",72.9,"AZE",10120555
+"11","Bahrain",77.2,"BHR",1688629
+"12","Bangladesh",72.3,"BGD",164354176
+"13","Barbados",79.1,"BRB",287305
+"14","Belarus",74.6,"BLR",9449940
+"15","Belgium",81.5,"BEL",11579477
+"16","Belize",74.5,"BLZ",396120
+"17","Benin",61.5,"BEN",12055347
+"18","Bhutan",71.5,"BTN",769867
+"19","Bolivia",71.2,"BOL",11640159
+"20","Bosnia and Herzegovina",77.3,"BIH",3284806
+"21","Botswana",69.3,"BWA",2341649
+"22","Brazil",75.7,"BRA",212253150
+"23","Brunei",75.7,"BRN",436624
+"24","Bulgaria",74.9,"BGR",6958627
+"25","Burkina Faso",61.2,"BFA",20780371
+"26","Burundi",61.2,"BDI",11814346
+"27","Cambodia",69.6,"KHM",16671185
+"28","Cameroon",58.9,"CMR",26405174
+"29","Canada",82.3,"CAN",37674770
+"30","Central African Republic",52.8,"CAF",4812256
+"31","Chad",54,"TCD",16324440
+"32","Chile",80,"CHL",19082804
+"33","China",76.7,"CHN",1438207241
+"34","Colombia",77.1,"COL",50771878
+"35","Comoros",64.1,"COM",865696
+"36","Costa Rica",80.1,"CRI",5084636
+"37","Croatia",78.3,"HRV",4110214
+"38","Cuba",78.6,"CUB",11327988
+"39","Cyprus",80.8,"CYP",1205577
+"40","Denmark",80.8,"DNK",5788108
+"41","Djibouti",66.6,"DJI",985027
+"42","Dominican Republic",73.9,"DOM",10825682
+"43","Ecuador",76.8,"ECU",17587526
+"44","Egypt",71.8,"EGY",101930276
+"45","El Salvador",73.1,"SLV",6479609
+"46","Equatorial Guinea",58.4,"GNQ",1392950
+"47","Eritrea",65.9,"ERI",3536285
+"48","Estonia",78.6,"EST",1326357
+"49","Eswatini",59.4,"SWZ",1157707
+"50","Ethiopia",66.2,"ETH",114357494
+"51","Fiji",67.3,"FJI",895128
+"52","Finland",81.7,"FIN",5539002
+"53","France",82.5,"FRA",65244628
+"54","Gabon",66.2,"GAB",2214593
+"55","Georgia",73.6,"GEO",3990681
+"56","Germany",81.2,"DEU",83730223
+"57","Ghana",63.8,"GHA",30936375
+"58","Greece",82.1,"GRC",10433037
+"59","Greenland",71.25,"GRL",56750
+"60","Grenada",72.4,"GRD",112418
+"61","Guatemala",74.1,"GTM",17846248
+"62","Guinea",58,"GIN",13056478
+"63","Guinea",61.2,"GIN",13056478
+"64","Guyana",69.8,"GUY",785788
+"65","Haiti",63.7,"HTI",11373955
+"66","Honduras",75.1,"HND",9871892
+"67","Hong Kong",84.7,"HKG",7484618
+"68","Hungary",76.7,"HUN",9665192
+"69","Iceland",82.9,"ISL",340795
+"70","India",69.4,"IND",1377233523
+"71","Indonesia",71.5,"IDN",272931713
+"72","Iran",76.5,"IRN",83771587
+"73","Iraq",70.5,"IRQ",40031626
+"74","Ireland",82.1,"IRL",4926480
+"75","Israel",82.8,"ISR",8627444
+"76","Italy",83.6,"ITA",60479424
+"77","Jamaica",74.4,"JAM",2958567
+"78","Japan",84.5,"JPN",126552765
+"79","Jordan",74.4,"JOR",10182442
+"80","Kazakhstan",73.2,"KAZ",18730568
+"81","Kenya",63.3,"KEN",53521116
+"82","Kiribati",68.1,"KIR",119069
+"83","Kuwait",75.4,"KWT",4257495
+"84","Kyrgyzstan",71.3,"KGZ",6501804
+"85","Laos",67.6,"LAO",7253719
+"86","Latvia",75.2,"LVA",1890218
+"87","Lebanon",78.9,"LBN",6831445
+"88","Lesotho",53.7,"LSO",2138799
+"89","Liberia",63.7,"LBR",5032469
+"90","Libya",72.7,"LBY",6852010
+"91","Liechtenstein",80.5,"LIE",38106
+"92","Lithuania",75.7,"LTU",2729553
+"93","Luxembourg",82.1,"LUX",623861
+"94","Madagascar",66.7,"MDG",27539106
+"95","Malawi",63.8,"MWI",19024426
+"96","Malaysia",76.1,"MYS",32280610
+"97","Mali",58.9,"MLI",20125282
+"98","Malta",82.4,"MLT",441308
+"99","Marshall Islands",73.9,"MHL",59109
+"100","Mauritania",64.7,"MRT",4623535
+"101","Mauritius",74.9,"MUS",1271347
+"102","Mexico",75,"MEX",128655589
+"103","Micronesia",67.8,"FSM",114776
+"104","Moldova",71.8,"MDA",4035814
+"105","Mongolia",69.7,"MNG",3267320
+"106","Montenegro",76.8,"MNE",628050
+"107","Morocco",76.5,"MAR",36820713
+"108","Mozambique",60.2,"MOZ",31067362
+"109","Myanmar",66.9,"MMR",54335948
+"110","Namibia",63.4,"NAM",2531290
+"111","Nepal",70.5,"NPL",29027347
+"112","Netherlands",82.1,"NLD",17127290
+"113","New Zealand",82.1,"NZL",4814272
+"114","Nicaragua",74.3,"NIC",6608366
+"115","Niger",62,"NER",24014064
+"116","Nigeria",54.3,"NGA",205052107
+"117","North Macedonia",75.7,"MKD",2083391
+"118","Norway",82.5,"NOR",5412632
+"119","Oman",77.6,"OMN",5078933
+"120","Pakistan",67.1,"PAK",219992900
+"121","Palau",73.7,"PLW",18077
+"122","Panama",78.3,"PAN",4300667
+"123","Papua New Guinea",64.3,"PNG",8911530
+"124","Paraguay",74.1,"PRY",7114524
+"125","Peru",76.5,"PER",32876986
+"126","Philippines",71.1,"PHL",109280343
+"127","Poland",78.5,"POL",37854825
+"128","Portugal",81.9,"PRT",10202571
+"129","Romania",75.9,"ROU",19262731
+"130","Russia",72.4,"RUS",145922010
+"131","Rwanda",68.7,"RWA",12883878
+"132","Saint Lucia",76.1,"LCA",183458
+"133","Samoa",73.2,"WSM",198147
+"134","Saudi Arabia",75,"SAU",34701377
+"135","Senegal",67.7,"SEN",16649599
+"136","Serbia",75.8,"SRB",8744288
+"137","Seychelles",73.3,"SYC",98224
+"138","Sierra Leone",54.3,"SLE",7942879
+"139","Singapore",83.8,"SGP",5840996
+"140","Slovakia",77.4,"SVK",5459116
+"141","Slovenia",81.2,"SVN",2078881
+"142","Solomon Islands",72.8,"SLB",683301
+"143","Somalia",56.7,"SOM",15798020
+"144","South Africa",63.9,"ZAF",59154802
+"145","South Sudan",57.6,"SSD",11166783
+"146","Spain",83.4,"ESP",46751175
+"147","Sri Lanka",76.8,"LKA",21395196
+"148","Sudan",65.1,"SDN",43632213
+"149","Suriname",71.6,"SUR",585561
+"150","Sweden",82.7,"SWE",10086531
+"151","Syria",71.8,"SYR",17410293
+"152","Tajikistan",70.9,"TJK",9492342
+"153","Tanzania",65,"TZA",59368313
+"154","Thailand",76.9,"THA",69764925
+"155","Togo",60.8,"TGO",8237580
+"156","Tonga",70.8,"TON",105449
+"157","Trinidad and Tobago",73.4,"TTO",1398579
+"158","Tunisia",76.5,"TUN",11793319
+"159","Turkey",78.3,"TUR",84153250
+"160","Turkmenistan",68.1,"TKM",6012850
+"161","Uganda",63,"UGA",45427637
+"162","Ukraine",72,"UKR",43785122
+"163","United Arab Emirates",77.8,"ARE",9865845
+"164","United Kingdom",81.2,"GBR",67814098
+"165","United States",78.9,"USA",330610570
+"166","Uruguay",77.8,"URY",3471314
+"167","Uzbekistan",71.5,"UZB",33368859
+"168","Vanuatu",70.3,"VUT",305623
+"169","Venezuela",72.1,"VEN",28451828
+"170","Vietnam",75.3,"VNM",97160127
+"171","Yemen",66.1,"YEM",29687214
+"172","Zambia",63.5,"ZMB",18273379
+"173","Zimbabwe",61.2,"ZWE",14818157
