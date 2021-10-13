@@ -1,0 +1,50 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Life Expectancy against Country Population",
+  "width": 1600,
+  "height": 600,
+  "data": {
+    "url": "https://raw.githubusercontent.com/JunWenChong/FIT3143Assignment2/main/data/pop_growth_pop.csv"
+  },
+  "config": {
+    "axis": {"labelFontSize": 11, "titleFontSize": 3},
+    "title": {"fontSize": 20}
+  },
+  "params": [
+    {
+      "name": "country_filter",
+      "value": 90,
+      "bind": {
+        "input": "range",
+        "min": 2,
+        "max": 193,
+        "step": 1,
+        "name": "Number of Countries Shown: "
+      }
+    }
+  ],
+  "transform": [{"filter": "datum.index < country_filter"}],
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "Country",
+      "type": "nominal",
+      "axis": {"domain": false, "ticks": false, "labelAngle": 90}
+    },
+    "y": {
+      "field": "growth",
+      "type": "quantitative",
+      "axis": {
+        "gridColor": {
+          "condition": {"test": "datum.value === 0", "value": "black"},
+          "value": "#ddd"
+        }
+      }
+    },
+    "tooltip": [
+      {"field": "Country", "type": "nominal", "title": "Country"},
+      {"field": "growth", "title": "growth"}
+    ],
+    "color": {"field": "Country", "scale": {"scheme": "category10"}}
+  }
+}
