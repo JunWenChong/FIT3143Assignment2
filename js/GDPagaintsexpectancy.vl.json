@@ -1,0 +1,21 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Country GDP againts life expectancy",
+  "width": 700,
+  "height": 600,
+  "data": {
+    "url": "https://raw.githubusercontent.com/JunWenChong/FIT3143Assignment2/main/data/lifeexpectancy_gdp.csv"
+  },
+  "mark": "point",
+  "encoding": {
+    "x": {"field": "Life expectancy", "type": "quantitative"},
+    "y": {"field": "GDP", "type": "quantitative"},
+    "color": {"field": "Country", "type": "nominal"},
+    "tooltip": [
+      {"field": "Country", "type": "nominal", "title": "Country"},
+      {"field": "GDP", "type": "quantitative"},
+      {"field": "Life expectancy", "title": "Life Expectancy"}
+    ]
+  },
+  "config": {}
+}
