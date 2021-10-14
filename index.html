@@ -5,19 +5,46 @@
   <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
-  
+  <h1 style="text-align: center; font-family:Arial;">Analysis on World Population In The Year 2020</h1>
 </head>
-<body>
-  
-<div id="choropleth_map"></div>
+
+<body style = "background-color:#E0FFFF;text-align: center;">
+<h2 style="text-align:center; font-family:Arial;">World population in the year 2020</h2>
+<div id="populationmap"></div>
+
+<h2 style="text-align:center; font-family:Arial;">Country growth from year 2019 to 2020</h2>
+<div id="worldgrowth"></div>
+
+<h2 style="text-align:center; font-family:Arial;">Country GDP in the year 2020</h2>
+<div id="gdpcapita"></div>
+
+<h2 style="text-align:center; font-family:Arial;">The life expectancy against country GPD in 2020</h2>
+<div id="gdpvsexpectancy"></div>
+
 
 <script type="text/javascript">
-
   var spec2 = "js/GDPperCapita.vl.json";
-  vegaEmbed('#choropleth_map', spec2).then(function(result) {
+  vegaEmbed('#gdpcapita', spec2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
-
+<script type="text/javascript">
+  var spec2 = "js/GDPagaintsexpectancy.vl.json";
+  vegaEmbed('#gdpvsexpectancy', spec2).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+</script>
+<script type="text/javascript">
+  var spec2 = "js/countrygrowth.vl.json";
+  vegaEmbed('#worldgrowth', spec2).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+</script>
+<script type="text/javascript">
+  var spec2 = "js/worldpop.vl.json";
+  vegaEmbed('#populationmap', spec2).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+</script>
 </body>
 </html>
