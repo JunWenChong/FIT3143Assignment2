@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Life Expectancy against Country Population",
-  "width": 1300,
+  "width": 1000,
   "height": 600,
   "data": {
     "url": "https://raw.githubusercontent.com/JunWenChong/FIT3143Assignment2/main/data/pop_growth_pop.csv"
