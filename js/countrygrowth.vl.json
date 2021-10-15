@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Life Expectancy against Country Population",
+  "title": "Country Growth from year 2019 to 2020",
   "width": 1000,
   "height": 600,
   "data": {
