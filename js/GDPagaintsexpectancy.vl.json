@@ -1,6 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Country GDP againts life expectancy",
   "width": 700,
   "height": 600,
   "data": {
