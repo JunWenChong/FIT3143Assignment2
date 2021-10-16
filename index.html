@@ -6,24 +6,29 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
   <h1 style="text-align: center; font-family:Arial; font-size:50px;">Analysis on World Population In The Year 2020</h1>
-  <p1 style="font-size:20px;">This analysis tells us certain aspects thats going on around the world during the year 2020. The analysis contains 143 countries<br>
-  In this analysis, we will be looking into the population in each country, the growth % from year 2019 to 2020, the GDP in each country and how the GDP affects the life expectancy of the residents<br>
+  <p1 style="font-size:20px;word-break: break-all; white-space:normal;">This analysis tells us certain aspects thats going on around the world during the year 2020. The analysis contains 143 countries
+  In this analysis, we will be looking into the population in each country, the growth % from year 2019 to 2020, the GDP in each country and how the GDP affects the life expectancy of the residents
   Hopefully, this analysis would help the reader have a better understanding on whats going on around the world.</p1>
 </head>
 <body style = "background-color:#88B04B;text-align: center;">
 <h2 style="text-align:center; font-family:Arial; font-size:40px;">World population in the year 2020</h2>
 <div id="populationmap"></div>
-<div id="gdpcapita"></div>
-<p1>Story Telling Text</p1>
+<p1 style="font-size:20px;">This visualization shows the <strong>population of the world in the year 2020</strong>. It uses colour staturation to determine the density of the country, the darker the country means that the
+<strong>higher</strong> the population. Some countries did not include their data, therefore the countries without data can be seen having a while hue. From the observation, the countries with high population include 
+<strong>China, United States, Russia, India and Brazil</strong>. While the country that we can see having the least amount of peopl is <strong>Greenland</strong> </p1>
 <h2 style="text-align:center; font-family:Arial; font-size:40px;">Country growth from year 2019 to 2020</h2>
 <div id="worldgrowth"></div>
-<p1>Story Telling Text</p1>
+<p1 style="font-size:20px;">This visualizaion tells us the <strong>percentage (%) in growth</strong> in the countries from year 2019 to 2020. Countries with a positive growth would have a <strong>positive</strong> bar while countries with
+a negative growth will have a <strong>negative</strong> bar. From this visualizaion, the country with the highest growth % is <strong>Oman</strong> while the country with the highest negative growth is <strong>Lalvia</strong></p1>
 <h2 style="text-align:center; font-family:Arial; font-size:40px;">Country GDP in the year 2020</h2>
-<p1>Story Telling Text</p1>
+<div id="gdpcapita"></div>
+<p1 style="font-size:20px;">This visualizaion tells us the <strong>GDP per captia</strong> for every country in the year 2020, similar to the visualizaion about world population, it uses colour saturation to tell us the country's GDP.
+The greener the country means that the higher the GPD, in this case the country with the <strong>highest GPD</strong> is <strong>Australia and most parts of North America</strong>.</p1>
 <h2 style="text-align:center; font-family:Arial; font-size:40px;">The life expectancy against country GPD in 2020</h2>
 <div id="gdpvsexpectancy"></div>
-<p1>Story Telling Text</p1>
-
+<p1 style="font-size:20px;">This last visualizaion is a scatterplot showing how the <strong>country's GDP affects the life expectancy of their citizens</strong>. We can see that there is a relationship between these variables
+as the <strong>higher the GDP, the higher the life expectancy</strong>. This makes sense as the higher GPD countries would supply more healthcare to their people thus increasing their life expectancy. The country with the <strong>highest GPD and life expectancy</strong> is
+<strong>Luxembourg</strong></p1>
 <script type="text/javascript">
   var spec2 = "js/GDPperCapita.vl.json";
   vegaEmbed('#gdpcapita', spec2).then(function(result) {
